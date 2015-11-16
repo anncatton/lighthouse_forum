@@ -1,4 +1,8 @@
 <h2>Edit this post</h2>
+<hr>
+
+<%= link_to "Back to this post", post_path(@post) %>
+<hr>
 <%= form_for @post do |f| %>
   <div>
     <%= f.label "title" %><br>
